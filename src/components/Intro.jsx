@@ -2,6 +2,7 @@ import Profile from '../assets/Myat Inzally Khine.jpg';
 import Github from '../assets/Social Icons/Github.svg';
 import LinkedIn from '../assets/Social Icons/LinkedIn.svg';
 
+
 function Intro(){
     return(
         <>
@@ -17,8 +18,8 @@ function Intro(){
             
             </div>
             <div className='flex space-x-5'>
-                <img src={Github} alt='github logo' className='h-5 w-5' />
-                <img src={LinkedIn} alt='LinkedIn Logo' className='h-5 w-5'/>
+                <a href='https://github.com/MyatIK'><img src={Github} alt='github logo' className='h-5 w-5' /></a>
+                <a href='https://www.linkedin.com/in/myat-khine/'><img src={LinkedIn} alt='LinkedIn Logo' className='h-5 w-5'/></a>
             </div>
         
         </>
