@@ -1,8 +1,10 @@
 import Header from "./Header";
 import Footer from "./Footer";
 
-function Projects(){
+
+function Contacts(){
     return(
+
         <>
             <Header/>
             <Footer/>
@@ -11,4 +13,4 @@ function Projects(){
     )
 }
 
-export default Projects
+export default Contacts

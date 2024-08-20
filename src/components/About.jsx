@@ -1,14 +1,14 @@
 import Header from "./Header";
 import Footer from "./Footer";
 
-function Projects(){
+function About(){
     return(
         <>
             <Header/>
             <Footer/>
-        
+
         </>
     )
 }
 
-export default Projects
+export default About

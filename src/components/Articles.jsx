@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 
-function Projects(){
+function Articles(){
     return(
         <>
             <Header/>
@@ -11,4 +11,4 @@ function Projects(){
     )
 }
 
-export default Projects
+export default Articles
