@@ -7,7 +7,7 @@ function Intro(){
         <>
             <div className="text-white md:grid md:grid-cols-2 md:gap-5 mt-5 md:mt-16">
                 <div>
-                    <h1 className="font-bold text-xl md:text-2xl">Front-End Developer</h1>
+                    <h1 className=" text-xl md:text-2xl">Front-End Developer</h1>
                     <p className='md:mt-5'>Hi! My name is Myat. I am a Front-end Developer with background in Mechanical Engineering. I specialize in creating react apps and am interested in learning languages and technologies.</p>
                 </div>
                 <div className='flex justify-center'>

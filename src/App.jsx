@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Intro from './components/Intro'
 import TechStack from './components/TechStack'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Intro/>
       <TechStack/>
       <Projects/>
+      <Footer/>
      
     </div>
   )

@@ -11,7 +11,7 @@ function Header(){
 
     return(
         <div className="flex justify-between text-white relative">
-            <p className='font-bold'>Myat Inzally Khine</p>
+            <p className='font-bold italic text-2xl'>Myat Inzally Khine</p>
             <div className="hidden md:block">
                 <ul className='flex space-x-6'>
                     <li>Home</li>
@@ -33,7 +33,7 @@ function Header(){
                         <li>Contact</li>
                     </ul>
                 </div>:
-                <button onClick={toggle} className=' absolute right-10'>
+                <button onClick={toggle} className=' absolute right-5 md:right-10 '>
                     <img src={Menu} alt="hamburger menu" className='h-5 w-5 visible md:hidden'/>
 
                 </button>
