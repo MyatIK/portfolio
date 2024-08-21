@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='p-2 md:p-16 bg-black min-h-screen'>
+    <div className='p-5 md:p-16 bg-black min-h-screen'>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>

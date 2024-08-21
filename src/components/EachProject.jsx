@@ -6,9 +6,9 @@ import YelpCamp from '../assets/YelpCamp.png';
 
 function EachProject(){
     return(
-        <div className="mt-5 md:mt-24">
+        <div className="mt-10 md:mt-24">
             <h2 className="text-xl md:text-3xl text-white font-bold text-center">Portfolio</h2>
-             <div className="md:grid md:grid-cols-2 md:gap-5 mt-5 md:mt-10">
+             <div className="md:grid md:grid-cols-2 md:gap-5 mt-5 md:mt-10 space-y-5">
                 <ProjectDetails src={CoverSpace} title='Space Tourism Website' description="Space Tourism is a webiste where people can look up information about space, where they can travel to, who they will travel with and the technology used to send them into space. Website design is from frontend mentor." tech='React.js TailwindCSS' href='https://space-tourism-website-two-kappa.vercel.app/'/>
                 <ProjectDetails src={CoverYelp} title='YelpCamp.com' description="Yelp Camp is a website created with react.js and tailwindcss and it allows travellers to look up information on campgrounds, look at reviews and write reviews." tech='React js TailwindCSS' href='https://myatik.github.io/YelpCamp/'/>
                 <ProjectDetails src={Spense} title='Rock, Paper, Scissors Game' description="An online game you can play alone with computer. It follows the same rules and give out scores after every match and announces who win after getting to the winning score." tech='React js TailwindCSS'/>
