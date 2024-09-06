@@ -16,9 +16,13 @@ function ProjectDetails(props){
 
                     </button>
                 </a>
-                <button className='p-2 rounded-md border border-slate-800 text-sm text-white font-bold bg-black hover:text-yellow-500'>
-                    View Code & Read Me file
-                </button>
+                <a href={props.codehref}>
+                    <button className='p-2 rounded-md border border-slate-800 text-sm text-white font-bold bg-black hover:text-yellow-500'>
+                        View Code 
+                    </button>
+
+                </a>
+                
             </div>
         
         
